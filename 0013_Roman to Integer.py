@@ -12,6 +12,7 @@ class Solution:
 
         n = 0
         l = len(s)
+        
         for i in range(l):
             
             if (i + 1 < l) and (dict[s[i]] < dict[s[i+1]]):
